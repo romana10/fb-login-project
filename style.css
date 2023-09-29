@@ -1,0 +1,247 @@
+.body {
+    margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ================= */
+/* common style start*/
+/* ================= */
+
+.w-50 {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+
+.line {
+    border: 1px solid #dadde1;
+    margin: 20px 0;
+    
+}
+
+
+
+
+/* ================= */
+/* common style end*/
+/* ================= */
+
+
+
+
+
+/* ================= */
+/* MAIN style start*/
+/* ================= */
+
+.main-area {
+    background: #f0f2f5;
+    overflow: hidden;
+    padding: 133px 0;
+}
+
+
+.main-area .fb-image {
+    margin-top: 40px;
+}
+
+
+.main-area .fb-image img {
+    width: 280px;
+    /* height: 100px; */
+}
+
+
+.main-area .fb-help h3 {
+    margin: -5px 0 0 28px;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    color: #1C1E21;
+    width: 500px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.main-area .login-form {
+    width: 65%;
+    margin: auto;
+    background: #ffffff;
+    padding: 15px 20px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+}
+
+
+.main-area .login-form input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.main-area .login-form input[type="text"], .main-area .login-form input[type="password"] {
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #c4c6d0;
+}
+
+.main-area .login-form input[type="text"]:focus, .main-area .login-form input[type="password"]:focus {
+   box-shadow: 0 0 1px 1px rgb(22, 111, 229);
+   outline: none;
+}
+
+
+::placeholder {
+    color: #9d9fa7;
+}
+
+
+.main-area .login-form input[type="submit"] {
+    background: #1877f2;
+    color: #ffffff;
+    padding: 15px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+
+.main-area .forgot-pass {
+ color: #1877f2;
+ text-decoration: none;
+ font-size: 14px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-area .login-form .forgot-pass:hover {
+    text-decoration: underline;
+}
+
+
+
+.main-area .login-form .new-acc {
+    background: #42b72a;
+    color: #ffffff;
+    padding: 15px 12px;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+
+.main-area .create-page {
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.main-area .create-page a {
+    color: #1c1e29;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.main-area .create-page p {
+    color: #1C1E21;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* ================= */
+/* MAIN style end*/
+/* ================= */
+
+
+
+
+/* ================= */
+/* footer area start*/
+/* ================= */
+
+
+.footer-area {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer-area .language ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #8a8d91;
+    overflow: hidden;
+}
+
+.footer-area .language ul a, .footer-area .custom-links ul a {
+    color: #8a8d91;
+    text-decoration: none;
+}
+
+
+.footer-area .language ul li, .footer-area .custom-links ul li {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+
+.footer-area .language .more {
+    background: #e9ebee;
+    padding: 0 10px;
+    border: 1px solid #c4c6d0;
+    display: inline-block;
+    color: #1C1E21;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.footer-area .custom-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #8a8d91;
+    overflow: hidden;
+
+}
+
+
+.footer-area .copyright {
+    font-size: 14px;
+    color: #8a8d91;
+}
+
+.footer-area .language ul a:hover, .footer-area .custom-links ul a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* ================= */
+/* footer area end*/
+/* ================= */
